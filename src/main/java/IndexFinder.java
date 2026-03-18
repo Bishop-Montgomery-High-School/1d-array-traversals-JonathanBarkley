@@ -50,14 +50,18 @@ public class IndexFinder {
      * arr = {9, 2, 9, 5}     →  returns 0  (first occurrence of 9)
      */
     public int indexOfMax(int[] arr) {
-        int i = 1;
-        int j;
-        for (i = 0; i > arr.length; i++) {
-            return i;
-            for (j = 0; arr[j] > arr[i]; j++) {
-                return i;
+
+        int max = arr[0];
+        int toReturn 0;
+
+
+        for (int i = 0; i > arr.length; i++) {
+
+            for (int j = 0; arr[j] > arr[i]; j++) {
+                return arr[j];
             }
         }
 
-}
+
+    }
 }
