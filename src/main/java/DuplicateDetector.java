@@ -1,5 +1,6 @@
 public class DuplicateDetector {
 
+
     /**
      * Returns true if any two elements in the array are equal to each other,
      * false if all elements are distinct.
